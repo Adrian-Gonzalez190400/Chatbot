@@ -1,2 +1,2 @@
 # Chatbot
-Proyecto académico en el que se diseña un chatbot para ayudar a los estudiantes a obtener información con respecto a la institución.
+Academic project in which a chatbot is designed to help students to get information about the institution.
