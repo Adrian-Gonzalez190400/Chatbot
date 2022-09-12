@@ -18,7 +18,7 @@ Chatbot ITSUR is an academic project where a chatbot is designed to help student
 ## GUI Prototype
 
 Main page:
-<img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIChat.png" width=1000>
+<img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIInicio.png" width=1000>
 
 Chat page:
 <img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIChat.png" width=1000>
