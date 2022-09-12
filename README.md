@@ -6,7 +6,7 @@
 3. [GUI prototype](#GUI-prototype)
 
 ## Description
-Chatbot is an academic project where a chatbot is designed to help students to get information about the institution. This information is mainly public information that can be found in ITSUR's website or calling byphone to the institution, but that sometimes is dificult to find for new students.
+Chatbot ITSUR is an academic project where a chatbot is designed to help students to get information about the institution. This information is mainly public information that can be found in ITSUR's website or calling byphone to the institution, but that sometimes is dificult to find for new students.
 
 ## Use cases
 * [ ]  ...
