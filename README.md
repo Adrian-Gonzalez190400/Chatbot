@@ -18,8 +18,8 @@ Chatbot is an academic project where a chatbot is designed to help students to g
 ## GUI Prototype
 
 Main page:
-<img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIInicio.jpg" width=1000>
+<img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIChat.png" width=1000>
 
 Chat page:
-<img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIChat.jpg" width=1000>
+<img src="https://github.com/Adrian-Gonzalez190400/Chatbot/blob/master/PrototipoGUIChat.png" width=1000>
 
