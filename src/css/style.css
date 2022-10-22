@@ -1,0 +1,105 @@
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main, footer{
+    width:100%;
+    margin:40px auto;
+    overflow: hidden;
+}
+
+header nav{
+    background-color: #4F9A3C;
+    height: 80px;  
+    width: 100%;
+    grid-area: nav;
+    overflow: hidden; 
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: right;
+}
+
+header nav ul li a{
+    padding: 14px 20px;
+    display:block;
+    color:#fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background:#F2DD22
+}
+
+.articles{
+    width: 65%;
+    float:left;
+    background: #FFF;
+    padding: 20px;
+    float:left;  
+}
+
+h2#pregunta_inicial{
+    text-align: center;
+    width: 100%;
+    font-family: 'Arial black', Arial, Helvetica, sans-serif;
+    color: #0A3D8A;
+}
+
+div.dialogo_izq{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: #F2DD22;
+    word-wrap: break-word;
+    min-width:00px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display:inline-block;
+}
+
+article.introduccion{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+button {
+    font-family: Courier New;
+    color: #fff305;
+    font-size: 33px;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 2px 4px #f9ff59;
+    border: solid #e0dd2f 7px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#080c0f), to(#71bd55));
+    background: -moz-linear-gradient(top, #080c0f, #71bd55);
+}
+
+button:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#999999));
+    background: -moz-linear-gradient(top, #000000, #999999)
+}
+  
+input {
+    background: #e2fdf4; 
+    color: #0ebd84; 
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #e7f338; 
+    border-radius: 6px;
+}
