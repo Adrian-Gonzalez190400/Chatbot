@@ -1,6 +1,8 @@
 import React  from 'react';
 import ListaDeMensajes from './ListaDeMensajes';
 import '../css/chatBot.css'
+
+// Componente que simula la página en donde sucede la conversación
 class ChatBot extends React.Component{
     
     render(){
@@ -33,4 +35,3 @@ class ChatBot extends React.Component{
 
 
 export default ChatBot
-

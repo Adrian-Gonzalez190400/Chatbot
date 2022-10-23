@@ -5,9 +5,9 @@ class Dialogo extends React.Component{
         super(props)
         this.state = {msg: "..."}
     }
-    componentDidMount(){
+    /*componentDidMount(){
         setTimeout(()=>{}, 3000)
-    }
+    }*/
     render(props){
         return (
             <div className={this.props.sender=="Bot" ? "globo_dialogo izq" : "globo_dialogo_der"}>{this.props.msg}</div>

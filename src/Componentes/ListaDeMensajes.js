@@ -1,7 +1,7 @@
 import React  from 'react';
 import '../css/chatBot.css'
 import Dialogo from '../Componentes/Dialogo'
-
+// Componente que genera todos los globitos dde dialogo con los mensajes guardados en sessionStorage
 class ListaDeMensajes extends React.Component{
 
     getConversacion(){
@@ -24,16 +24,11 @@ class ListaDeMensajes extends React.Component{
     }
 
     render(){   
-        this.getConversacion()     
-        console.log(this.state.mensajes)
-        this.state.mensajes.map((msg)=> {
-            console.log(msg.msg)
-        })
+        this.getConversacion()    
         return(
             <div>
             {
                 this.state.mensajes.map((msg, index)=> {
-                    console.log(index)
                     return <Dialogo msg={msg.msg} key={index} sender={msg.sender}/>
                 })
             }

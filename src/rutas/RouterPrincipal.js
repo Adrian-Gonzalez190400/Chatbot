@@ -1,7 +1,8 @@
 import React from 'react'
 import { Routes, Route, BrowserRouter, NavLink } from 'react-router-dom';
 import {Inicio} from '../Componentes/Inicio';
-import ChatBot from '../Componentes/ChatBot'
+import {AcercaDe} from '../Componentes/AcercaDe';
+import ChatBot from '../Componentes/Chatbot'
 import '../css/style.css';
 
 
@@ -23,7 +24,7 @@ export const RouterPrincipal = () => {
                 <Routes>
                     <Route path="/" element={<Inicio/>} />
                     <Route path="/chatea" element={<ChatBot/>} />
-                   {/* <Route path="/about" element={<AcercaDe />} />*/}
+                    <Route path="/about" element={<AcercaDe />} />
                 </Routes>
               
             </section>
