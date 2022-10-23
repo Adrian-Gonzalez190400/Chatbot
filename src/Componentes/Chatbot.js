@@ -1,19 +1,36 @@
+import React  from 'react';
+import ListaDeMensajes from './ListaDeMensajes';
 import '../css/chatBot.css'
-
-export const ChatBot = () => {
-    return (
-        <div>
-           <label form="text"> TextField: </label><input type="text"></input>
-           <label>Boton para enviar </label> <button> p </button>
-           <div class="globo_dialogo izq">
-                <p>
-                    Este es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogoEste es un ejemplo de dialogo
-                </p>
+class ChatBot extends React.Component{
+    
+    render(){
+        let nuevoMensaje = (nuevoMsg) => {
+            if(sessionStorage.getItem('chat')==null){
+                sessionStorage.setItem('chat','[]');
+            }
+            var chat=JSON.parse(sessionStorage.getItem('chat')); 
+            chat.push({
+                'sender':'Usuario',
+                'msg':nuevoMsg
+            });
+            chat.push({
+                'sender':'Bot',
+                'msg':"Okay"
+            });
+            sessionStorage.setItem('chat',JSON.stringify(chat));
+            document.getElementById("mensajeTxt").value = ""
+            this.forceUpdate();
+        }
+        return (
+            <div>
+                <ListaDeMensajes/>
+                <input type="text" id="mensajeTxt" placeholder='Escribe tu pregunta aquí...'></input>
+                <button onClick={e => nuevoMensaje(document.getElementById("mensajeTxt").value)} > > </button>
             </div>
-            <div class="globo_dialogo izq">
-                <p>Este es un ejemplo de dialogo</p>
-            </div>
-        </div>
-    )
+        )
+    }
 }
+
+
+export default ChatBot
 

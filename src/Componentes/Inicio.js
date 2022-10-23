@@ -1,4 +1,4 @@
-
+import React, { Component }  from 'react';
 import imagenItsur from "../files/itsur.png"
 import '../css/style.css'
 

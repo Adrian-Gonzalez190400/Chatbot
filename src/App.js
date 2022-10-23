@@ -1,4 +1,5 @@
 import './App.css';
+import React, { Component }  from 'react';
 import { RouterPrincipal } from './rutas/RouterPrincipal';
 import {ChatKommunicate} from './Componentes/ChatKommunicate';
 {/*import Chat from './Componentes/Chat';

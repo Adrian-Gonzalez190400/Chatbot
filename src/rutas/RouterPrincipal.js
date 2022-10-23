@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route, BrowserRouter, NavLink } from 'react-router-dom';
 import {Inicio} from '../Componentes/Inicio';
-import {ChatBot} from '../Componentes/Chatbot'
+import ChatBot from '../Componentes/ChatBot'
 import '../css/style.css';
 
 
