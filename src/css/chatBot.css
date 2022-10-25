@@ -2,7 +2,12 @@ body{
   background-color: #DBEFE1;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.ScrollStyle
+{
+    max-height: 480px;
+    overflow-y: scroll;
+    width: 1000px;
+}
 div.globo_dialogo{
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,25 +16,36 @@ div.globo_dialogo{
   width: fit-content;
   max-width: 40%;
   text-align: center;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-  margin: 30px 20px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 20px;
+  margin: 30px;
+  float: left;
+  text-align: left;
+}
+div#linea_globo{
+  width: 100%;
+  display: inline-block;
+
 }
 
 div.globo_dialogo_der{
+  display: flex;
+  justify-content: flex-end;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: 
-  #3469f9;
+  background-color: #2420ec;
   padding: 10px 30px;
   width: fit-content;
-  max-width: 40%;
+  max-width: 35%;
   text-align: center;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-  margin: 30px 20px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 30px;
+  margin: 30px 150px;
+  align-items: right;
+  float: right;
+  text-align: right;
 }
 
 .izq:after{
@@ -38,17 +54,27 @@ div.globo_dialogo_der{
   position: absolute;
   top: 30%;
   margin-left: -43px;
+  border-top: 12px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 22px solid #F2DD22;
+}
+.der:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20%;
+  margin-right: -40px;
+  border-left: 15px solid #2420ec;
   border-top: 10px solid transparent;
-  border-bottom: 16px solid transparent;
-  border-right: 16px solid #F2DD22;
+  border-bottom: 12px solid transparent; 
 }
 
 button {
-  font-family: Courier New;
-  color: #fff305;
-  font-size: 33px;
+  font-family:'Times New Roman', Times, serif;
+  color: #270772;
+  font-size: 15px;
   padding: 10px;
-  text-decoration: none;
+  font-weight: 10px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
@@ -57,8 +83,8 @@ button {
   box-shadow: 0px 1px 3px #666666;
   text-shadow: 1px 2px 4px #f9ff59;
   border: solid #e0dd2f 7px;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#080c0f), to(#71bd55));
-  background: -moz-linear-gradient(top, #080c0f, #71bd55);
+  background-image: src="../files/enviar.png";
+  background-repeat:no-repeat;
 }
 button:hover {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#999999));
@@ -72,4 +98,5 @@ button:hover {
     padding: 15px; 
     border: 2px solid #e7f338; 
     border-radius: 6px;
+    width: 500px;
     }

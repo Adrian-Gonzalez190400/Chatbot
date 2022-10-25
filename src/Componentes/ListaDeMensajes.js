@@ -26,13 +26,13 @@ class ListaDeMensajes extends React.Component{
     render(){   
         this.getConversacion()    
         return(
-            <div>
+            <center> <div class="ScrollStyle" >
             {
                 this.state.mensajes.map((msg, index)=> {
                     return <Dialogo msg={msg.msg} key={index} sender={msg.sender}/>
                 })
             }
-            </div>
+            </div></center>
         )
     }
 }
