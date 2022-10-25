@@ -69,7 +69,8 @@ export const AcercaDe = () => {
                         <div className="column">
                             <div className="card">
                                 <div className="container" >
-                                  <img src={logo} width="200px" height="200px"></img>
+                                  
+                                    <img src={logo} width="200px" height="177px"></img>
 
                                 </div>
                             </div>
