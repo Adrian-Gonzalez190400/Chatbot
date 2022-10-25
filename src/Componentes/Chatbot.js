@@ -2,6 +2,7 @@ import React  from 'react';
 import ListaDeMensajes from './ListaDeMensajes';
 import '../css/chatBot.css'
 
+
 // Componente que simula la página en donde sucede la conversación
 class ChatBot extends React.Component{
     
@@ -17,7 +18,7 @@ class ChatBot extends React.Component{
             });
             chat.push({
                 'sender':'Bot',
-                'msg':"Okay"
+                'msg':"¿En qué puedo ayudarte?"
             });
             sessionStorage.setItem('chat',JSON.stringify(chat));
             document.getElementById("mensajeTxt").value = ""
@@ -27,7 +28,7 @@ class ChatBot extends React.Component{
             <div>
                 <ListaDeMensajes/>
                 <input type="text" id="mensajeTxt" placeholder='Escribe tu pregunta aquí...'></input>
-                <button onClick={e => nuevoMensaje(document.getElementById("mensajeTxt").value)} > > </button>
+                <button onClick={e => nuevoMensaje(document.getElementById("mensajeTxt").value)} > ➤ </button>
             </div>
         )
     }

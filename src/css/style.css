@@ -98,9 +98,17 @@ header nav ul li a:hover{
     padding: 20px;
     float:left;  
 }
-
+p#descripcion_inicial{
+  font-size: x-large;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h2#pregunta_inicial{
+    font-size: xx-large;
     text-align: center;
+    margin-top: 10%;
     width: 100%;
     font-family: 'Arial black', Arial, Helvetica, sans-serif;
     color: #0A3D8A;
@@ -112,6 +120,7 @@ div.dialogo_izq{
     color: #000;
     background-color: #F2DD22;
     word-wrap: break-word;
+    white-space: pre-wrap;
     min-width:00px;
     padding-left: 40px;
     padding-right: 40px;
@@ -119,12 +128,42 @@ div.dialogo_izq{
     padding-bottom: 18px;
     display:inline-block;
 }
+div.globo_inicio{
+  width: 100%;
+  font-size: x-large;
+  align-items: center;
+  text-align: right;
+  padding-left: 30%;
+  word-wrap: break-word;
+  display:inline-block;
+}
+
+aside#logo_itsur{
+    width: 0%;
+    margin-top: 3%;
+    align-items: center;
+    margin-right: 0px;
+    padding-left: 0px;
+}
 
 article.introduccion{
     text-align: center;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
+}
+article#equipo{
+  text-align: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+.main_about_us{
+  width: 90%;
+  align-items: center;
+  align-self: center;
+  margin: 20px auto;
+  color: #000;
 }
 
 button {

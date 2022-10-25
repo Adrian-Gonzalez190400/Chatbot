@@ -7,10 +7,9 @@ import '../css/style.css'
 
 export const AcercaDe = () => {
     return (
-            <><section className="main">
-            <section className="articles">
-                <article className="introduccion">
-
+                <section className="main_about_us">
+                <section className="articles_about_us">
+                <article id="equipo">
                     <div class="row">
                         <div class="column">
                             <div class="card">
@@ -71,6 +70,6 @@ export const AcercaDe = () => {
                 </article>
             </section><aside id="logo_itsur">
             </aside>
-        </section><footer></footer></>
+        </section>
     )
 }

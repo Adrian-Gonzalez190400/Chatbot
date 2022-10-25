@@ -11,11 +11,11 @@ class ListaDeMensajes extends React.Component{
             var chat=JSON.parse(sessionStorage.getItem('chat')); 
             chat.push({
                 'sender':'Bot',
-                'msg':"Hola, en que te ayudo"
+                'msg':"¡Hola, halcón! ¿En qué te puedo ayudar?"
             });
             chat.push({
                 'sender':'Bot',
-                'msg':"Te puedo ayudar con..."
+                'msg':"Tenemos información sobre: \n • Correos de maestros. \n • Donde ubicar a maestros en el ITSUR.\n • Ubicación de oficinas. \n • Entre otros temas."
             });
             sessionStorage.setItem('chat',JSON.stringify(chat));
         }
