@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import imagenItsur from "../files/itsur.png"
+import imagenItsur from "../files/logo_itsur.jpg"
 import '../css/style.css'
 
 export const Inicio = () => {
