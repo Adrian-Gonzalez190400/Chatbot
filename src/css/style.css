@@ -8,8 +8,7 @@ body{
   margin: 0;
   background-image: 
    linear-gradient(rgba(40, 170, 55, 0.5),
-   rgba(40, 170, 55, 0.5)), 
-   url("../files/logo_chatbot.png");
+   rgba(40, 170, 55, 0.5));
    box-sizing: border-box;  
    margin: auto;
    display: block;
