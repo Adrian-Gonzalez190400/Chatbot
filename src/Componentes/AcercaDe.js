@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import imagenItsur from "../files/itsur.png"
-import logo from "../files/logo_chatbot.png"
+import logo from "../files/logo_chatbot_sf.png"
 
 
 import '../css/style.css'
