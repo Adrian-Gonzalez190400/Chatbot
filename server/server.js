@@ -40,27 +40,18 @@ const getAnswer = async(textUser, projectId = PROJECTID)=> {
     };
   
     // Mandar consulta 
-    // TODO: Eliminar
     const responses = await sessionClient.detectIntent(request);
-    console.log('Detected intent');
     const result = responses[0].queryResult;
-    console.log(`  Query: ${result.queryText}`);
-    console.log(`  Response: ${result.fulfillmentText}`);
-    if (result.intent) {
-      console.log(`  Intent: ${result.intent.displayName}`);
-    } else {
-      console.log('  No intent matched.');
-    }
+    
     return {
         response: result.fulfillmentText
     };
   }
 
-
-
-
-app.get("/api", async (request, response) => {
-    let responseD = await getAnswer("correo tierras");
+app.get("/api/:mensaje", async (request, response) => {
+    //let responseD = await getAnswer(request.params.mensaje);
+    //response.json({"response": responseD.response});
+    let responseD = await getAnswer(request.params.mensaje);
     response.json({"response": responseD.response});
 })
 
