@@ -1,4 +1,3 @@
-import { Component }  from 'react';
 import imagenItsur from "../files/logo_itsur.jpg"
 import '../css/style.css'
 
@@ -16,7 +15,7 @@ export const Inicio = () => {
                     </article>
                 </section>   
                 <aside id="logo_itsur">
-                    <img src={imagenItsur} width="370px" height="370px"></img>
+                    <img src={imagenItsur} width="370px" height="370px"  alt="imagen itsur"></img>
                 </aside> 
             </section>
         <footer></footer>

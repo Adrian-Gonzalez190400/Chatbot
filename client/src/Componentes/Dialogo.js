@@ -11,7 +11,7 @@ class Dialogo extends React.Component{
     render(props){
         return (
            <div id="linea_globo">
-            <div className={this.props.sender=="Bot" ? "globo_dialogo izq" : "globo_dialogo_der der"}>{this.props.msg}</div>
+            <div className={this.props.sender==="Bot" ? "globo_dialogo izq" : "globo_dialogo_der der"}>{this.props.msg}</div>
             </div>
         )
     }

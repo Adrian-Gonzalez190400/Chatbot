@@ -1,5 +1,4 @@
-import React, { Component }  from 'react';
-import imagenItsur from "../files/itsur.png"
+import React  from 'react';
 import logo from "../files/logo_chatbot_sf.png"
 
 
@@ -70,7 +69,7 @@ export const AcercaDe = () => {
                             <div className="card">
                                 <div className="container" >
                                   
-                                    <img src={logo} width="200px" height="177px"></img>
+                                    <img src={logo} width="200px" height="177px" alt="logo"></img>
 
                                 </div>
                             </div>
