@@ -22,14 +22,13 @@ class ChatBot extends React.Component{
             this.forceUpdate();
         }
         return (
-            <div>
-                <ListaDeMensajes/>
+            <><div>
+                <ListaDeMensajes />
                 <input type="text" id="mensajeTxt" placeholder='Escribe tu pregunta aquí...'></input>
-                <button onClick={e => nuevoMensaje(document.getElementById("mensajeTxt").value)} > ➤ </button>
-            </div>
+                <button onClick={e => nuevoMensaje(document.getElementById("mensajeTxt").value)} action=".vacio"> ➤ </button>
+            </div><div className='vacio'> 
+            </div></>
         )
     }
 }
-
-
 export default ChatBot
