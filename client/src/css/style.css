@@ -119,6 +119,8 @@ div.dialogo_izq{
     background-color: #F2DD22;
     word-wrap: break-word;
     white-space: pre-wrap;
+    overflow-wrap: break-word;
+    min-height: 30%;
     min-width:00px;
     padding-left: 40px;
     padding-right: 40px;
@@ -137,7 +139,6 @@ div.globo_inicio{
 }
 
 aside#logo_itsur{
-    width: 0%;
     margin-top: 3%;
     align-items: center;
     margin-right: 0px;
