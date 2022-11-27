@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import { Component, useImperativeHandle }  from 'react';
->>>>>>> 66e8dc8a45312670416b0a20342843c2ec99845a
 import imagenItsur from "../files/logo_itsur.jpg"
 import { Navigate } from "react-router-dom";
 import React from 'react';

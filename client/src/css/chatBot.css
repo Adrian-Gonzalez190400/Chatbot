@@ -1,27 +1,30 @@
 body{
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 .ScrollStyle
 {
-    max-height: 480px;
+    margin-top: 2vh;
+    height: 72vh;
     overflow-y: scroll;
    /* position:fixed; */
-    width: 1000px;
+    width: 85vw;
     scroll-behavior: smooth;
 }
 div.globo_dialogo{
+  justify-content: flex-end; 
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #F2DD22;
-  padding: 10px 30px;
+  padding: 20px 30px;
   width: fit-content;
-  max-width: 40%;
+  max-width: 50vw;
   text-align: center;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 20px;
-  margin: 30px;
+  margin: 2vh;
   float: left;
   text-align: left;
 }
@@ -36,9 +39,10 @@ div.globo_dialogo_der{
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #2420ec;
-  padding: 10px 30px;
+  color: #ffffff;
+  padding: 20px 30px;
   width: fit-content;
-  max-width: 35%;
+  max-width: 50vw;
   min-height: 30%;
   overflow-wrap: break-word;
   white-space: initial;
@@ -46,7 +50,7 @@ div.globo_dialogo_der{
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 30px;
-  margin: 30px 150px;
+  margin: 2vh 0%;
   align-items: right;
   float: right;
   text-align: right;
@@ -62,15 +66,18 @@ div.globo_dialogo_der{
   border-bottom: 10px solid transparent;
   border-right: 22px solid #F2DD22;
 }
-.der:after{
+/*
+.der:before{
   content: "";
+  display: block;
   position: absolute;
-  top: 20%;
-  margin-right: -40px;
+  top: 30%;
+  margin-left: 100%;
   border-left: 15px solid #2420ec;
   border-top: 10px solid transparent;
   border-bottom: 12px solid transparent; 
 }
+*/
 
 button {
   font-family:'Times New Roman', Times, serif;
@@ -101,6 +108,6 @@ button:hover {
     padding: 15px; 
     border: 2px solid #e7f338; 
     border-radius: 6px;
-    margin-top: 100px;
+    margin-top: 2vh;
     width: 70%;
     }

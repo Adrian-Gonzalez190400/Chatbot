@@ -1,8 +1,8 @@
 body{
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
-
 .row{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -64,7 +64,8 @@ body{
 
 header nav{
     background-color: #4F9A3C;
-    height: 80px;  
+    height: 9vh; 
+    min-height: 60px; 
     width: 100%;
     grid-area: nav;
     overflow: hidden; 
@@ -79,14 +80,15 @@ header nav ul li{
 }
 
 header nav ul li a{
-    padding: 14px 20px;
+    padding: 2vh 3vw;
     display:block;
     color:#fff;
     text-decoration: none;
 }
 
 header nav ul li a:hover{
-    background:#F2DD22
+    background:#F2DD22;
+    color: #4F9A3C;
 }
 
 .articles{
